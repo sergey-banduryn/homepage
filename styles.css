@@ -281,3 +281,60 @@ body {
 .photo-box .photo-active {
   width: 500px;
 }
+
+.main {
+  padding: 50px;
+  background-color: rgb(247, 224, 192);
+}
+
+.profile {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+}
+
+.profile-details {
+  width: 30%;
+}
+
+.details-avatar {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 2px solid;
+  border-color: royalblue;
+}
+
+.profile-description {
+  width: 60%;
+}
+.name {
+  padding-left: 30px;
+
+}
+.intro {
+  margin: 20px 0;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: silver;
+}
+
+.main-info {
+  text-decoration-line: underline;
+}
+
+.period, .role, .place {
+  color: var(--durability-text-color);
+}
+
+.experience{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 30px;
+}
+.item{
+  padding: 30px;
+  border-radius: 20px;
+  background-color: silver;
+}
